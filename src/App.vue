@@ -1,11 +1,22 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-    
+    <Head />
+    <Nav />
+    <Foot />
   </div>
-  <router-view/>
 </template>
+<script>
+import Head from './components/Head.vue';
+import Foot from './components/Foot.vue';
+import Nav from './components/nav.vue'
+export default {
+  components: {
+    Head,
+    Foot,
+    Nav
+  }
+}
+</script>
 
 <style>
 #app {

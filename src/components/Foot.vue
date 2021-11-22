@@ -8,12 +8,12 @@
 </template>
 <script>
 export default {
-  name: "about"
+  name: "foot"
 };
 </script>
 <style land="css">
   .about{
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 0.5rem;
     margin: 1rem;
     padding: 1rem;
