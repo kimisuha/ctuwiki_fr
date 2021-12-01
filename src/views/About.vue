@@ -3,7 +3,8 @@
     <h1 class="card-title">this page create by Bui Thanh Loc</h1>
     <p class="card-text">mssv: B1906514</p>
     <p class="card-text">create with vue/vue-cli</p>
-    <p class="card-text">date: 15/11/2021</p>
+    <p class="card-text">date create pj: 15/11/2021</p>
+    <p class="card-text">date finish pj: 22/12/2021</p>
   </div>
 </template>
 <script>

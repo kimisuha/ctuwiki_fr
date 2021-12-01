@@ -1,5 +1,5 @@
 <template>
-  <div class="table">
+  <div class="table text-capitalize">
     <div v-if="this.type == 'user'">
       <table class="table text-light tb">
         <thead>

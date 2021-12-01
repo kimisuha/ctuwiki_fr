@@ -1,7 +1,7 @@
 <template>
     <div class="head text-center text-light">
         <img src="https://upload.wikimedia.org/wikipedia/vi/6/6c/Logo_Dai_hoc_Can_Tho.svg" alt="logo" class="img-fluid m-auto" />
-        <h1>CTU wiki</h1>
+        <h1>CTU</h1>
     </div>
 </template>
 <script>

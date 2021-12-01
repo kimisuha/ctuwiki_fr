@@ -32,10 +32,15 @@ export default {
       info: Object,
     };
   },
-  mounted() {
-    axios
+  methods: {
+    getData(){
+      axios
       .get("http://localhost:5000/admin")
-      .then((response) => (this.info = response.data));
+      .then((response) => (this.info = response.data))
+    }
+  },
+  mounted() {
+    this.info = setInterval(this.getData, 500);
   },
 };
 </script>
